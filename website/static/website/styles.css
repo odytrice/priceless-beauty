@@ -1,0 +1,59 @@
+#title
+{
+    font-family: papyrus;
+    font-size: 80px;
+    text-align: justify;
+    color: green;
+    margin: 25px;
+    opacity: 1;
+}
+
+#title2
+{
+    font-family: papyrus;
+    font-size: 50px;
+    text-emphasis: underline;
+    color: green;
+    opacity: 1;
+}
+
+.info
+{
+    font-family: papyrus;
+    font-size: 50px;
+    margin: 50px 0 50px;
+    color: green;
+    opacity: 1;
+}
+
+h1
+{
+    font-family: papyrus;
+    font-size: 50px;
+    text-emphasis: underline;
+    color: green;
+    opacity: 1;
+}
+
+h2
+{
+    font-family: papyrus;
+    font-size: 50px;
+    text-emphasis: underline;
+    color: green;
+    opacity: 1;
+    margin-bottom: 10mm
+
+}
+
+li:hover
+{
+    color: purple;
+}
+
+tr.info
+{
+    color: green;
+}
+
+

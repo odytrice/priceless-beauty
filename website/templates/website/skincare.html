@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}SkinCare - {% endblock %}
+
+{% block content %}
+
+<h1>
+    <span id="title2">
+        Priceless Beauty
+    </span>
+</h1>
+
+<h3 class="info"> SkinCare </h3>
+<img src="{% static 'website/skincare.jpeg' %}" alt="skincare image">
+
+<h4 class="info"> Categories </h4>
+
+<ul>
+    <li>Body wash</li>
+    <li>Cleansers</li>
+    <li>Eye creams</li>
+    <li>Lotions</li>
+    <li>Moisturisers</li>
+    <li>Serums</li>
+    <li>Sunscreens</li>
+
+</ul>
+
+<h4 class="info"> Favourite Brands </h4>
+
+<ul>
+    <li>Aveeno</li>
+    <li>Cerave</li>
+    <li>Cetaphil</li>
+    <li>Differin</li>
+    <li>Eucerin</li>
+    <li>Neutrogena</li>
+    <li>Panoxyl</li>
+    <li>Rejuva</li>
+    <li>The Ordinary</li>
+
+</ul>
+
+{% endblock %}

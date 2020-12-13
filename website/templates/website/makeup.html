@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}Makeup - {% endblock %}
+
+{% block content %}
+
+<h1>
+    <span id="title2">
+        Priceless Beauty
+    </span>
+</h1>
+
+<h3 class="info"> Makeup </h3>
+<img src="{% static 'website/makeup.jpeg' %}" alt="makeup image">
+
+<h4 class="info"> Categories </h4>
+
+<ul>
+    <li>Bronzers</li>
+    <li>Concealers</li>
+    <li>Contour Powders</li>
+    <li>Eyebrow Pencils</li>
+    <li>Foundations</li>
+    <li>Highlighters</li>
+    <li>Lipsticks</li>
+    <li>Mascaras</li>
+    <li>Primers</li>
+    <li>Powders</li>
+    <li>Setting sprays</li>
+
+</ul>
+
+<h4 class="info"> Favourite Brands </h4>
+
+<ul>
+    <li>Anastasia Beverly Hills</li>
+    <li>ELF</li>
+    <li>L'Oreal</li>
+    <li>MAC</li>
+    <li>Maybelline</li>
+    <li>NYX Cosmetics</li>
+    <li>Too Faced</li>
+
+</ul>
+
+{% endblock %}

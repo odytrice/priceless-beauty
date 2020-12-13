@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}Hair - {% endblock %}
+
+{% block content %}
+
+<h1>
+    <span id="title2">
+        Priceless Beauty
+    </span>
+</h1>
+
+<h3 class="info"> Hair </h3>
+<img src="{% static 'website/hair.jpeg' %}" alt="haircare image">
+
+<h4 class="info"> Categories </h4>
+
+<ul>
+    <li>Edge controls</li>
+    <li>Gels</li>
+    <li>Mousse</li>
+    <li>Pomade</li>
+    <li>Relaxers</li>
+    <li>Sprays</li>
+    <li>Volumiser</li>
+    <li>Wax sticks</li>
+</ul>
+
+<h4 class="info"> Favourite Brands </h4>
+
+<ul>
+    <li>Dark & Lovely</li>
+    <li>Dove</li>
+    <li>Garnier</li>
+    <li>Got2B</li>
+    <li>L'Oréal</li>
+    <li>Pantene</li>
+    <li>Tresemme</li>
+
+</ul>
+
+{% endblock %}
